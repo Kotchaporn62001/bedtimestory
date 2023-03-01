@@ -24,14 +24,16 @@
     list-style-type: none;
 }
 .menubar li{
-    padding-right: 30px;
+    width: 80px;
+    height: 25px;
+    margin-right: 30px;
     border: 1px solid #fdfdfd;
-    border-radius: 10px;
-    background: rgba(190, 209, 110, 0.6);
+    border-radius: 15px;
+    background: #349390;
     text-align: center;
 }
 .menubar a{
     text-decoration: none;
     font-size: 16px;
-    color: #333
+    color: #fdfdfd
 }
