@@ -10,13 +10,13 @@ function header() {
                 </div>
                 <ul className="menubar">
                     <li className="menu_link">
-                        <a href="#">หน้าหลัก</a>
+                        <a href="header.js">หน้าหลัก</a>
                     </li>
                     <li className="menu_link">
-                        <a href="#">แต่งนิทาน</a>
+                        <a href="header.js">แต่งนิทาน</a>
                     </li>
                     <li className="menu_link">
-                        <a href="#">เข้าสู่ระบบ</a>
+                        <a href="header.js">เข้าสู่ระบบ</a>
                     </li>
                 </ul>
             </div>
