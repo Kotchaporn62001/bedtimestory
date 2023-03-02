@@ -6,7 +6,7 @@ function home() {
       <div className="home" >
         <div className="container">
             <div className="home_con">
-                <div className="home_fec">
+                <div className="home_text">
                     <h1>นิทานก่อนนอน</h1>
                 </div>
                 
