@@ -1,0 +1,45 @@
+.container{
+    max-width: 970px;
+    margin: 0 auto;
+}
+.content_con h1{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.fic_area{
+    height: 40px;
+    text-align: center; 
+
+}
+
+.fic_data img{
+    border-radius: 10px;
+ 
+}
+.fic_data h2{
+    font-size: 16px;
+    font-weight: 600;
+}
+.text {
+    top: 600px;
+    color: rgb(189, 192, 192);
+    font-size: 16px;
+    padding: 20px;
+    display: flex;
+    opacity: 0;
+    transition: 0.5s ease;
+    background: rgba(20, 74, 20, 0.907);
+    border-radius: 20px;
+}
+.text.active{
+    opacity: 1;
+    background: rgba(20, 74, 20, 0.907);
+    
+    transition: 0.5s ease;
+    align-items: center;
+}
+.logo_book{
+    padding: 5px ;
+    font-size:2rem;
+}
