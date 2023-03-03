@@ -37,3 +37,19 @@
     font-size: 16px;
     color: #fdfdfd
 }
+.menu_log {
+    transition: 0.5s ease;
+    color: #fff; 
+
+}
+.menu_log.active{
+    
+    transition: 0.5s ease;
+    align-items: center;
+}
+.center{
+    background: #000000;
+}
+.center h1{
+    font-size: 16px;
+}
