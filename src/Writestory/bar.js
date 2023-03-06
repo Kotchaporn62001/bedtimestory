@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './header.css';
+import './bar.css';
 import { FiUser } from "react-icons/fi";
 
 function Header() {
@@ -28,22 +28,9 @@ function Header() {
                                 ):(
                                     <FiUser/>
                                 )}
-                                <div className="center">
-                                    <h1>เข้าสู่ระบบ</h1>
-                                    <form method="post">
-                                    <div className="text_field">
-                                        <input type="text" required/>
-                                        <label>Username</label>
-                                    </div>
-                                    <div className="text_field">
-                                        <input type="text" required/>
-                                        <label>Password</label>
-                                    </div>
-                                    <input type="submit" value="sign"/>
-                
-                                    </form>
-                                </div>
+                               
                     </li>
+                    
                     </div>
                 </ul>
             </div>

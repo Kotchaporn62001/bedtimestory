@@ -1,7 +1,7 @@
-import Header from './components/header'
-import Home from './components/home'
-import Content from './components/content'
-import Signin from './components/signin'
+import Header from './HOME/header'
+import Home from './HOME/home'
+import Content from './HOME/content'
+
 
 function App() {
   return (
@@ -9,7 +9,8 @@ function App() {
       <Header/>
       <Home/>
       <Content/>
-      <Signin/>
+   
+
 
     </div>
   );
